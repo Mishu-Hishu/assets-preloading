@@ -4,8 +4,18 @@
 }
 
 .loading {
-	width: 100px;
+	width: 50%;
 	margin: 300px auto;
 	background: lightgray;
 	text-align: center;
+	position: relative;
+	z-index: 0;
+}
+
+.loading-bar {
+	position: absolute;
+	height: 100%;
+	width:  0;
+	background: lightgreen;
+	z-index: -1;
 }

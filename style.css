@@ -1,22 +1,11 @@
-/*
-this file is not styled according to standards, it is just my experimentation
-*/
-
 * {
 	margin:0;
 	padding:0;
 }
 
-/*
-seems like this is not really needed... the actual sizing happnes in the .js file
-html, body {
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-}
-*/
-
-canvas {
-	background-color: gray;
-	display: block;
+.loading {
+	width: 100px;
+	margin: 300px auto;
+	background: lightgray;
+	text-align: center;
 }
